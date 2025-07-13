@@ -1,3 +1,18 @@
 theme: jekyll-theme-minimal
-title: Genespace homepage
+title: Genespace
 description: Open platform for bioinformatics
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+markdown: kramdown
+highlighter: rouge
+
+navigation:
+    - title: Платформа
+      url: /index.html
+    - title: Партнеры
+      url: /about
+
+social:
+    github: genespace-ru

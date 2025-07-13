@@ -1,0 +1,17 @@
+<div class="footer">
+	<div class="container">
+		<p class="copy">
+			&copy; {{ site.time | date: '%Y' }}
+			ООО "Биософт.Ру"
+		</p>
+
+		<div class="footer-links">
+			<ul class="noList">
+				{%- if site.social.github -%}
+					{%- include footer_links/github_icon.html -%}
+				{%- endif -%}
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- end .footer -->
