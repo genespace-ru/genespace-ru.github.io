@@ -7,12 +7,14 @@ sass:
 
 markdown: kramdown
 highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
 
 navigation:
-    - title: Платформа
+    - title: Блог
       url: /index.html
-    - title: Партнеры
-      url: /about
+    - title: О проекте
+      url: /project
 
 social:
     github: genespace-ru
